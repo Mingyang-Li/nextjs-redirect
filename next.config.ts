@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
           value: "https://qr-nextjs-redirect-virid.vercel.app",
         },
       ],
-      destination: "https://nextjs-redirect-virid.vercel.app?source=qr-code",
+      destination: "https://nextjs-redirect-virid.vercel.app/:path*?source=qr-code",
       permanent: true,
     },
   ],
